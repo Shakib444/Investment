@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Investment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background: #008cba;
+            color: white;
+            padding: 50px 20px;
+        }
+        button {
+            background: #ff9800;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+        }
+        .market, .plans, .payment {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+        }
+        .plan {
+            background: #ddd;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+        }
+        .payment img {
+            width: 120px;
+            margin: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Stock Market Investment</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Market</a>
+            <a href="#">Investment Plans</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Invest in Stocks & Grow Your Wealth</h2>
+        <p>Join our platform and start investing in the stock market today!</p>
+        <button onclick="alert('Signup Coming Soon!')">Get Started</button>
+    </section>
+
+    <section class="market">
+        <h2>Live Stock Market Updates</h2>
+        <p>Stock data API integration coming soon...</p>
+        <div id="stock-data">
+            <p>Loading stock prices...</p>
+        </div>
+    </section>
+
+    <section class="plans">
+        <h2>Investment Plans</h2>
+        <div class="plan">
+            <h3>Basic Plan</h3>
+            <p>Invest $100 - Earn 5% Monthly</p>
+        </div>
+        <div class="plan">
+            <h3>Pro Plan</h3>
+            <p>Invest $500 - Earn 7% Monthly</p>
+        </div>
+    </section>
+
+    <section class="payment">
+        <h2>Payment Methods</h2>
+        <p>We accept Bkash, Nagad & Rocket</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/BKash-Logo.wine.svg" alt="Bkash">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Nagad_logo.svg" alt="Nagad">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Stock Market Investment. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("stock-data").innerHTML = "<p>Stock prices updating soon...</p>";
+        });
+    </script>
+
+</body>
+</html>
